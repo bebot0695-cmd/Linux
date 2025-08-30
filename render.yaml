@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: linux-terminal
+    env: docker
+    plan: free
+    dockerfilePath: ./dockerfile
+    autoDeploy: true
